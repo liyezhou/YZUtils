@@ -1,0 +1,12 @@
+Package: YZUtils
+Type: Package
+Title: Miscellaneous Tools for Yezhou
+Version: 0.1.14
+Author: Yezhou Li
+Maintainer: Yezhou Li <liyezhou123@gmail.com>
+Description: The miscellaneous tools that are customised for Yezhou to use.
+    Let me know if they are useful to you too. :)
+License: Free to Use / Edit and Distribe
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
