@@ -4,7 +4,7 @@
 \alias{specify_decimal}
 \title{A unified rouding function}
 \usage{
-specify_decimal(x, k)
+specify_decimal(x, k = 2, as_string = T)
 }
 \arguments{
 \item{x}{The number}
