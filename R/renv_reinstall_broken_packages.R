@@ -4,6 +4,7 @@
 #'
 #' @return No return
 #' @export
+#' @import renv
 
 reinstall_broken_packages_for_renv <- function() {
   pkgs = list.files(.libPaths()[1], full.names = TRUE)

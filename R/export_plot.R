@@ -6,6 +6,7 @@
 #' @param fileName name of the output file
 #' @return No return
 #' @export
+#' @import grDevices
 
 export_plot = function(nullObject = NULL, fileName) {
   grDevices::recordPlot() %>% ggpubr::ggexport(filename = fileName)

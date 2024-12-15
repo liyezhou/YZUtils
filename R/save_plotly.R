@@ -6,6 +6,9 @@
 #' @param filename the file to save to
 #' @return no return, the values are copied to the clipboard
 #' @export
+#' @import tools
+#' @importFrom htmlwidgets saveWidget
+#' @importFrom plotly as_widget
 
 save_plotly <- function(p, filename) {
   htmlwidgets::saveWidget(plotly::as_widget(p), file = filename)

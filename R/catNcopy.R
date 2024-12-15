@@ -6,6 +6,7 @@
 #' @param sep the separator
 #' @return no return, the values are copied to the clipboard
 #' @export
+#' @import clipr
 
 catNcopy <- function(texts, sep = "\", \"") {
   cat(texts, sep = sep)

@@ -7,6 +7,7 @@
 #'
 #' @return A new tibble with name-value pairs
 #' @export
+#' @import dplyr tidyr
 print_tibble_row <- function(tbl, row = 1) {
   # if(nrow(tbl) > 1) {warning(glue("Only printing first row (out of {nrow(tbl)}) of the tibble!"))}
   tbl %>%
