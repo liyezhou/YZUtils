@@ -20,7 +20,6 @@
 #' view_tmp_csv(example_tbl)
 #'
 #' @export
-#' @import tidyverse
 
 view_tmp_csv <- function(tbl) {
   f = tempfile(fileext = ".csv")
