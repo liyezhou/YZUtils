@@ -8,7 +8,8 @@
 #' @param decimal Optional, the number of decimal places to round the number to
 #' @return The dataframe / tibble with the significance star column and the formated p value column
 #' @export
-#' @import dplyr rstatix
+#' @import dplyr
+#' @import rstatix
 #' @importFrom plyr mapvalues
 
 add_signif_and_format <- function(df, p.col, col.to.format = NULL, decimal = 3) {
