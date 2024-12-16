@@ -1,7 +1,7 @@
 Package: YZUtils
 Type: Package
 Title: Miscellaneous Tools for Yezhou
-Version: 0.1.19
+Version: 0.1.20
 Author: Yezhou Li
 Maintainer: Yezhou Li <liyezhou123@gmail.com>
 Description: A collection of miscellaneous tools customized for Yezhou's use. 
