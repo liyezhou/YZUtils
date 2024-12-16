@@ -1,12 +1,12 @@
 Package: YZUtils
 Type: Package
 Title: Miscellaneous Tools for Yezhou
-Version: 0.1.15
+Version: 0.1.17
 Author: Yezhou Li
 Maintainer: Yezhou Li <liyezhou123@gmail.com>
-Description: The miscellaneous tools that are customised for Yezhou to use.
+Description: A collection of miscellaneous tools customized for Yezhou's use. 
     Let me know if they are useful to you too. :)
-License: Free to Use / Edit and Distribe
+License: Free to Use / Edit and Distribute
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
@@ -18,5 +18,8 @@ Imports:
     plyr,
     tidyr,
     clipr,
-    grDevices
-
+    grDevices,
+    rstatix,
+    plotly,
+    crayon,
+    glue
