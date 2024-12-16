@@ -9,7 +9,7 @@
 #' @return The dataframe / tibble with the significance star column and the formated p value column
 #' @export
 #' @import dplyr
-#' @import rstatix
+#' @importFrom rstatix add_significance
 #' @importFrom plyr mapvalues
 
 add_signif_and_format <- function(df, p.col, col.to.format = NULL, decimal = 3) {
