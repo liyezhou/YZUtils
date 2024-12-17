@@ -9,7 +9,6 @@
 #' @examples
 #' notify("Operation completed successfully.")
 #'
-#' @importFrom crayon green
 #' @importFrom glue glue
 #' @export
 
