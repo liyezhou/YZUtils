@@ -1,7 +1,7 @@
 Package: YZUtils
 Type: Package
 Title: Miscellaneous Tools for Yezhou
-Version: 0.1.25
+Version: 0.1.26
 Author: Yezhou Li
 Maintainer: Yezhou Li <liyezhou123@gmail.com>
 Description: A collection of miscellaneous tools customized for Yezhou's use. 
@@ -12,4 +12,8 @@ LazyData: true
 RoxygenNote: 7.3.2
 Imports:
     magrittr,
+    flextable,
+    htmlwidgets,
+    plotly,
+    plyr,
     tidyverse
